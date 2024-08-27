@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(172, 170, 170);
+    align-items: center;
+    box-shadow: 0.1px 0.1px 30px rgb(193, 193, 193);
+}
+.name{
+    margin: 5px;
+}
+.mine{
+    list-style: none;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+li{
+    margin: 15px;
+}
+.mine li a{
+    text-decoration: none;
+    color: black;
+    transition: all ease-in-out 0.3s;
+}
+.icon a{
+    color: black;
+    transition: all ease-in-out 0.3s;
+}
+.icon a:hover svg{
+    opacity: 0.5;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.mine li a:hover{
+    color: rgb(216, 216, 216);
+}
+.names{
+    text-align: center;
+}
+.hori{
+    width: 4%;
+    margin: auto;
+    border: 3px solid black;
+    opacity: 50;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.details{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+.infor{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+}

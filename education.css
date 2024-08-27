@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(172, 170, 170);
+    align-items: center;
+    box-shadow: 0.1px 0.1px 30px rgb(193, 193, 193);
+}
+.name{
+    margin: 5px;
+}
+.mine{
+    list-style: none;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+li{
+    margin: 15px;
+}
+.mine li a{
+    text-decoration: none;
+    color: black;
+    transition: all ease-in-out 0.3s;
+}
+.icon a{
+    color: black;
+    transition: all ease-in-out 0.3s;
+}
+.icon a:hover svg{
+    opacity: 0.5;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.mine li a:hover{
+    color: rgb(216, 216, 216);
+}
+.names{
+    text-align: center;
+}
+.hori{
+    width: 4%;
+    margin: auto;
+    border: 3px solid black;
+    opacity: 50;
+    border-radius: 5px;
+    margin-bottom: 120px;
+}
+.educa{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+.cgpa{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.grad{
+    margin-right: 60px;
+}
+.btech{
+    box-shadow: 0px 0px 80px 5px rgb(219, 219, 219);
+    width: 40%;
+    padding: 50px;
+    transition: all ease-in-out 0.3s;
+}
+.mtech{
+    box-shadow: 0px 0px 80px 5px rgb(219, 219, 219);
+    width: 40%;
+    padding: 50px;
+    transition: all ease-in-out 0.3s;
+}
+.call{
+    color: rgb(109, 108, 108);
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.horo{
+    width: 8%;
+    margin: auto;
+    border: 3px solid black;
+    opacity: 50;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+span{
+    color: rgb(109, 108, 108);
+}
+.btech:hover{
+    box-shadow: 0px 1px 50px 10px rgb(198, 198, 198);
+    transform: translateY(-5px);
+}
+.mtech:hover{
+    box-shadow: 0px 1px 50px 10px rgb(198, 198, 198);
+    transform: translateY(-5px);
+}

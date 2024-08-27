@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(172, 170, 170);
+    align-items: center;
+    box-shadow: 0.1px 0.1px 30px rgb(193, 193, 193);
+}
+.name{
+    margin: 5px;
+}
+.mine{
+    list-style: none;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+li{
+    margin: 15px;
+}
+.mine li a{
+    text-decoration: none;
+    color: black;
+    transition: all ease-in-out 0.3s;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.icon a{
+    color: black;
+    transition: all ease-in-out 0.3s;
+}
+.icon a:hover svg{
+    opacity: 0.5;
+}
+.mine li a:hover{
+    color: rgb(216, 216, 216);
+}
+.main{
+    width: 100%;
+    background-image: url(https://media.newyorker.com/photos/66ba72ad48c45ec2854f7f13/master/w_2560%2Cc_limit/Anderson-Musk-PoliticalActivism.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 200px;
+    padding-left: 100px;
+}
+.main .botton{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px;
+}
+
